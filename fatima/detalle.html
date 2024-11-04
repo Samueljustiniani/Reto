@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Detalles del Producto</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Tienda Estilo</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="carrito.html"><i class="fas fa-shopping-cart"></i> Carrito (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="detalle-producto">
+        <div class="imagen-principal">
+            <img src="imagenes/producto1-grande.jpg" alt="Producto 1">
+        </div>
+        <div class="informacion">
+            <h3>Producto 1</h3>
+            <p>Descripción completa del producto con detalles importantes.</p>
+            <p>Precio: $20</p>
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" value="1" min="1">
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+    </section>
+</body>
+</html>
